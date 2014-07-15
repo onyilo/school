@@ -1,0 +1,50 @@
+.content-fieldset
+{
+	/*border: outset 2px;*/
+	margin:60px auto; 
+	width:90%;
+	-webkit-border-radius:5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.login-table
+{
+	margin:auto;
+	width:90%;
+}
+
+.mytable
+{
+	margin: 5px auto; 
+	width:auto; 
+	min-width:50%;
+	font-size:14px;
+	border:solid thin #000;
+}
+.mytable tr td
+{
+	padding:5px 2px;
+	margin:5px;
+	text-align:center;
+	
+}
+.mytable th
+{
+	color:#000000;
+	background-color: #ACBFDD;
+	text-align:center;
+	
+}
+.mytable >> tr:nth-child(odd)
+{
+	color:#006600;
+	/*background-color: #00ff00;*/
+}
+.trodd
+{
+	
+	background-color: rgba(206, 218, 237, 0.7);
+}
+
+
+
